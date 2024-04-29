@@ -1,26 +1,23 @@
-import React from 'react'
-import ReactDOM from 'react-dom/client'
-import App from './App.tsx'
-import './index.css'
-import {
-  createBrowserRouter,
-  RouterProvider,
-} from "react-router-dom";
-import Grid1 from './pages/Grid1.tsx';
+import React from "react";
+import ReactDOM from "react-dom/client";
+import App from "./App.tsx";
+import "./index.css";
+import { createBrowserRouter, RouterProvider } from "react-router-dom";
+import Grid1 from "./pages/Grid1/Grid1.tsx";
 
 const router = createBrowserRouter([
   {
     path: "/",
-    element:  <App />,
+    element: <App />,
   },
   {
-    path: "/grid1",
-    element:  <Grid1 />,
+    path: "/grid1/",
+    element: <Grid1 />,
   },
 ]);
 
-ReactDOM.createRoot(document.getElementById('root')!).render(
+ReactDOM.createRoot(document.getElementById("root")!).render(
   <React.StrictMode>
     <RouterProvider router={router} />
-  </React.StrictMode>,
-)
+  </React.StrictMode>
+);
