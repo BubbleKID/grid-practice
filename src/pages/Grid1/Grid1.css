@@ -59,16 +59,4 @@
     grid-column: unset;
     grid-row: unset;
   }
-
-  .cell1,
-  .cell2,
-  .cell3,
-  .cell4,
-  .cell5,
-  .cell6,
-  .cell7,
-  .cell8 {
-    grid-column: 1; /* All cells take full width of the grid */
-    grid-row: auto; /* Let each cell determine its own row */
-  }
 }

@@ -4,6 +4,7 @@ import App from "./App.tsx";
 import "./index.css";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import Grid1 from "./pages/Grid1/Grid1.tsx";
+import Grid2 from "./pages/Grid2/Grid2.tsx";
 
 const router = createBrowserRouter([
   {
@@ -13,6 +14,10 @@ const router = createBrowserRouter([
   {
     path: "/grid1/",
     element: <Grid1 />,
+  },
+  {
+    path: "/grid2/",
+    element: <Grid2 />,
   },
 ]);
 
