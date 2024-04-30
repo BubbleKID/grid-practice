@@ -13,6 +13,11 @@ function App() {
           Grid2
         </a>
       </p>
+      <p>
+        <a href="/grid3" target="_blank">
+          Grid3
+        </a>
+      </p>
     </div>
   );
 }

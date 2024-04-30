@@ -5,6 +5,7 @@ import "./index.css";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import Grid1 from "./pages/Grid1/Grid1.tsx";
 import Grid2 from "./pages/Grid2/Grid2.tsx";
+import Grid3 from "./pages/Grid3/Grid3.tsx";
 
 const router = createBrowserRouter([
   {
@@ -18,6 +19,10 @@ const router = createBrowserRouter([
   {
     path: "/grid2/",
     element: <Grid2 />,
+  },
+  {
+    path: "/grid3/",
+    element: <Grid3 />,
   },
 ]);
 
