@@ -1,5 +1,8 @@
 import "./Grid3.scss";
 
+// https://codepen.io/mor10/pen/QvmLpd
+// https://www.smashingmagazine.com/2017/06/building-production-ready-css-grid-layout/
+
 const Grid3 = () => {
   return (
     <div className="grid3 grid-container">
