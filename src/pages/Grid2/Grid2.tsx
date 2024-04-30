@@ -1,8 +1,8 @@
-import "./Grid2.css";
+import "./Grid2.scss";
 
 const Grid2 = () => {
   return (
-    <div className="grid-container">
+    <div className="grid2 grid-container">
       <div className="grid-cell bg-pink-600 cell1">1</div>
       <div className="grid-cell bg-orange-600 cell2">2</div>
       <div className="grid-cell bg-purple-600 cell3">3</div>
