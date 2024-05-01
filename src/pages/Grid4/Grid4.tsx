@@ -1,7 +1,7 @@
 import "./Grid4.scss";
 
 // https://www.youtube.com/watch?v=OtpDP8k-2iM
-
+// https://css-tricks.com/a-complete-guide-to-css-media-queries/
 const Grid4 = () => {
   return (
     <div className="grid4 grid-container">
@@ -23,21 +23,9 @@ const Grid4 = () => {
       </main>
       <div className="sidebar1 grid-cell bg-purple-600 cell3">
         <h3>The Sidebar C</h3>
-        <p>The sidebar typically contains things like:</p>
-        <ul>
-          <li>Links</li>
-          <li>Menus</li>
-          <li>Ads</li>
-        </ul>
       </div>
       <div className="sidebar2 grid-cell bg-purple-600 cell3">
         <h3>The Sidebar E</h3>
-        <p>The sidebar typically contains things like:</p>
-        <ul>
-          <li>Links</li>
-          <li>Menus</li>
-          <li>Ads</li>
-        </ul>
       </div>
       <div className="footer grid-cell bg-green-600 cell6">
         <aside>
